@@ -3,12 +3,12 @@
 {% block content %}
     <h1>Миссия Колонизация Марса</h1>
 
-    {% if profession == "инженер" or profession == "строитель" %}
+    {% if 'инженер' in profession or 'строитель' in profession %}
         <h2>Инженерные симуляторы</h2>
-        <img src="https://lh3.googleusercontent.com/proxy/1fDo9QKPkFBFHXnNkdyNlH1qhIIV0OfVmgi_Cs3dqnmJkNpEgje2arfgVnQQRHrkSRtUWNEXTN_x95Srpbh6fMA" alt="">
+        <img src="https://neotech.3dn.ru/_pu/0/32580607.gif" alt="">
     
      {% else %}
         <h2>Научные симуляторы</h2>
-        <img src="https://lh3.googleusercontent.com/proxy/X1iR2LAKdEr85tpgsJKdhBBKumu7jiNBIrFWU-3LJj8jGPto_IzB5-ClcPCA1qMyRbv7yWkxk8cgqgZiuh4pjMJyX6GNuXdjPYfd6qej4aUD" alt="">
+        <img src="https://www.ex-astris-scientia.org/articles/akiraprise/nx01-dorsal.gif" alt="">
     {% endif  %}
 {% endblock %}
